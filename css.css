@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Homemade+Apple&family=Lato:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Homemade+Apple&family=Lato:wght@300;400&family=Open+Sans&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Anton', sans-serif;
+    color: black;
+    font-size: 16px;
+}
+
+.container{
+    width: 1170px;
+    max-width: 90%;
+    margin: auto;
+}
+    .header{
+        background: url('./images/bg.jpg') no-repeat center top / cover;
+        padding-top: 57px;
+        color: #ffff;
+        padding-bottom: 322px;
+    }
+
+header a{
+    color: #ffff;
+}
+section{
+    padding-top: 113px;
+}
+.logo{
+    margin-right: 69px;
+}
+.menu{
+    display: flex;
+}
+.menu li a{
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+}
+.menu li{
+    margin-right: 40px;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+p {
+   margin: 0;
+}
+ul li{
+    display: block;
+    padding: 0;
+    margin: 0   ;
+}
+.tel{
+    font-size: 17px;
+    margin-left: auto;
+    letter-spacing: 0.1em;
+}
+.nav{
+    display: flex;
+    align-items: center;
+}
+.offer{
+    text-transform: uppercase;
+    margin-top: 216px;
+}
+.offer p {
+    font-size: 30px;
+}
+.offer h1{
+    font-size: 100px;
+    margin-bottom: 19px;
+    margin-top: -9px;
+    letter-spacing: 0.02em; 
+    
+}
+.btn{
+    display: block;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    padding: 16px 0px;
+    border: 1px solid #fff;
+    width: 238px;
+    max-width: 100%;
+    transition: all 0.5s ease;  
+}
+.btn:hover{
+    background: #fff;
+    color: #000;
+}
+.maincontent{
+    display: flex;
+    justify-content: space-between;
+}
+.discription{
+    display: flex;
+    justify-content: space-between;
+}
+.discription p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 1.62em;
+}
+h2{
+    font-size: 50px;
+    text-transform: uppercase;
+
+}
+h3{
+    font-size: 25px;
+    text-transform: uppercase;
+   
+}
+
+.desc-left, .desc-right{
+    width: 564px;
+    max-width: 100%;
+    font-size: 16px;
+    line-height: 26px;    
+}
+
+.img2, .img3{
+    padding-top: 25px;
+    width: 570px;
+    max-width: 100%;
+    height: 350px;
+    transition: all 0.3s ease;
+}
+.img2:hover{
+    box-shadow: 0 20px 40px rgb(0 0 0 / 30%);
+    transform: scale(1.1);
+}
+.img3:hover{
+    box-shadow: 0 20px 40px rgb(0 0 0 / 30%);
+    transform: scale(1.1);
+}
+.footer-text{
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    padding: 114px 0;
+}
+.footer-text p{
+    margin-right: 67px;
+    
+}
+@media only screen and (max-width: 1280px) {
+    .header{
+        padding-bottom: 250px;
+    }
+    .container{
+        width: 1180px;
+    }
+    .container h2{
+        text-align: center;
+    }
+    .nav{
+        max-width: 100%;
+    }
+    .maincontent{
+        flex-direction: column;
+        align-items: center;
+    }
+    .desc-left, .desc-right{
+        width: 700px;
+    }        
+    .img2, .img3{
+        width: 100%;
+        height: 450px;
+    }
+}
+@media only screen and (max-width: 710px) {
+    .logo{
+        width: 30px;
+        height: 30px;
+    }
+    .menu li{
+        
+        margin-right: 20px;
+        list-style-type: none;
+    }
+    .tel{
+        font-size: 15px;
+    }
+    .desc-left, .desc-right{
+        width: 600px;
+    }        
+    .img2, .img3{
+        width: 100%;
+        height: 400px;
+    }
+    .footer-text p{
+        justify-content: space-between;
+    }
+    .offer h1{
+        font-size: 80px;
+    }
+    .btn{
+        font-size: 14px;
+        text-align: center;
+        letter-spacing: 0.1em;
+        padding: 12px 0px;
+        border: 1px solid #fff;
+        width: 200px;
+        max-width: 100%;
+        
+    }
+    
+}
+@media only screen and (max-width: 630px) {
+    .header{
+        padding-bottom: 220px;
+    }
+    .logo{
+        margin-right: 0px;
+    }
+    .offer h1{
+        font-size: 70px;
+        letter-spacing: 0.05em;
+    }
+    h2{
+        font-size: 40px;
+        text-transform: uppercase;
+    
+    }
+    h3{
+        font-size: 25px;
+        text-transform: uppercase;
+       
+    }
+    
+    .desc-left, .desc-right{
+        width: 564px;
+        max-width: 100%;
+        font-size: 16px;
+        line-height: 26px;    
+    }
+    
+    .img2, .img3{
+        padding-top: 25px;
+        width: 570px;
+        max-width: 100%;
+        height: 350px;
+        transition: all 0.3s ease;
+    }
+    
+}
+@media only screen and (max-width: 600px) {
+    .header{
+        padding-bottom: 200px;
+    }
+    .menu li{
+        
+        margin-right: 18px;
+        list-style-type: none;
+    }
+    .tel{
+        font-size: 13px;
+    }    
+    .offer{
+        text-transform: uppercase;
+        margin-top: 150px;
+    }
+    .offer p {
+        font-size: 25px;
+    }    
+    .offer h1{
+        font-size: 55px;
+        letter-spacing: 0.05em;
+    }
+    h2{
+        font-size: 35px;
+        text-transform: uppercase;
+    
+    }
+    h3{
+        font-size: 23px;
+        text-transform: uppercase;
+       
+    }
+    .container{
+        
+        max-width: 90%;
+        margin: auto;
+    }
+    .maincontent{
+        max-width: 100%;
+    }
+    .discription{
+
+    }
+    .desc-left, .desc-right{
+        margin: auto;
+        width: 500px;
+        max-width: 100%;
+        font-size: 13px;
+        line-height: 23px;    
+    }
+    
+    .img2, .img3{
+        padding-top: 25px;
+        width: 500px;
+        max-width: 100%;
+        height: 350px;
+        transition: all 0.3s ease;
+    }
+    
+}
+@media only screen and (max-width: 520px) {
+    .header{
+        padding-bottom: 200px;
+    }
+    .menu{
+        margin-left: -20px;
+    }
+    .menu li{
+        margin-right: 10px;
+    }
+    .tel{
+        margin-left: -2px;
+    }
+    .discription{
+        width: 90%;
+    }
+    .h2{
+        font-size: 25px;
+    }    
+    section{
+        padding-top: 50px;
+    }
+    
+    .footer-text{
+        font-size: 10px;
+        font-family: 'Open Sans', sans-serif;
+        display: flex;
+        padding: 50px 50px;
+        width: 100%;
+    }
+}
